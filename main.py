@@ -10,15 +10,15 @@ def main():
     print (num3)
 
     minval = num1
-    # first assume for first number, to begin comparison
+    # first assume for first number, to begin comparison --> initialize variable
 
     if num2 < minval:
         minval = num2
+    else:
         if num3 < minval:
             minval = num3
-    else:
-        minval
-    print(f'\n{minval}')
+
+    print(f'\n{minval} is the smallest number')
     
 
 if __name__ == '__main__':
